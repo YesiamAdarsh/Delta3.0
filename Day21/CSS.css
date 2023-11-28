@@ -1,6 +1,8 @@
 .card {
     width: 200px;
     height: 200px;
+    border: 2px solid black;
+    display: inline-block;
 }
 
 img {
