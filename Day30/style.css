@@ -1,0 +1,41 @@
+.container {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: repeat(12, 1fr);
+    grid-template-columns: repeat(12, 1fr);
+    gap: 10px;
+}
+
+.container div {
+    background-color: pink;
+    font-size: 1.5rem;
+}
+
+.footer {
+    grid-column: 1 / 13;
+}
+
+.main {
+    grid-row: 1 / 10;
+    grid-column: 1 / 7;
+}
+
+.ads {
+    grid-row: 1 / 11;
+    grid-column: 1 / 4;
+}
+
+.navigation {
+    grid-column: 1 / 7;
+}
+
+.sidebar {
+    grid-row: 1 / 11;
+    grid-column: 1 / 4;
+}
+
+.header {
+    grid-column: 1 / 13;
+}
