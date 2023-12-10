@@ -133,4 +133,30 @@ a {
 
 .sticky-nav {
     position: sticky;
+    top: 0;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+.sticky-nav-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item {
+    margin-right: 1rem;
+}
+
+.badge i {
+    background-color: #000;
+    padding-right: 7px;
+}
+
+.dark-badge {
+    background-color: #000;
+    color: #fff;
 }
