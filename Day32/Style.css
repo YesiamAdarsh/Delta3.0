@@ -24,6 +24,7 @@ body {
     flex: 1;
     border-radius: 1rem;
     overflow: auto;
+    padding: 0 1.5rem;
 }
 
 .music-player {
@@ -159,4 +160,38 @@ a {
 .dark-badge {
     background-color: #000;
     color: #fff;
+}
+@media (max-width: 1000px) {
+    .hide {
+        display: none;
+    }
+}
+
+.card {
+    background-color: #242424;
+    color: rgb(179, 179, 179);
+    width: 150px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-image {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+.card-info {
+    font-size: 0.85rem;
+    opacity: 0.8;
 }
