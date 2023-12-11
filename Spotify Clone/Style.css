@@ -218,18 +218,80 @@ a {
 }
 
 .album {
+    display: flex;
     width: 25%;
-    background-color: #474747;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.song-info:hover {
+    text-decoration: underline;
+}
+
+.artist-info a:hover {
+    text-decoration: underline;
+    opacity: 1;
+}
+
+.album-items {
+    margin-left: 8px;
+}
+.song-info {
+    font-size: 0.85rem;
+}
+
+.artist-info a{
+    font-size: 0.6rem;
+    opacity: 0.7;
+}
+
+.poster-img {
+    border-radius: 4px;
+    width: 3.75rem;
 }
 
 .player {
     width: 50%;
-    /* background-color: orange; */
 }
 
 .controls {
+    display: flex;
     width: 25%;
-    background-color: #474747;
+    justify-content: center;
+    justify-content: center;
+}
+
+.i1, .i2, .i5, .i6 {
+    height: 2.5rem;
+}
+
+.i3, .i4 {
+    height: 1.5rem;
+}
+
+.ctrl-icons {
+    margin-right: 5px;
+}
+
+.volume-bar {
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.volume-bar::-webkit-slider-runnable-track {
+    background-color: #4d4c4c;
+    border-radius: 100px;
+    height: 0.25rem;
+}
+
+.volume-bar::-webkit-slider-thumb {
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background-color: #1db855;
+    margin-top: -6px;
 }
 
 .player-controls {
