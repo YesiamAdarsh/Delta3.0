@@ -1,0 +1,82 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./asset/background.webp') center/cover no-repeat fixed;
+  color: #fff;
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #111;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 1rem;
+}
+
+.main {
+  padding: 3rem;
+}
+
+.hero {
+  background-image: url('hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.25rem;
+}
+
+.genres, .movies {
+  padding: 3rem;
+}
+
+.genre-list, .movie-list {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.genre, .movie-card {
+  width: 120px;
+  text-align: center;
+}
+
+.movie-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #111;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+  
